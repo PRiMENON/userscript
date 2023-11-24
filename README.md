@@ -1,0 +1,5 @@
+# userscript
+
+## License
+
+MIT License.
