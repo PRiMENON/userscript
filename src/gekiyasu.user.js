@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        gekiyasu
-// @namespace
+// @namespace   https://github.com/PRiMENON/
 // @description
 // @version     0.1
 // @match       http://buy.livedoor.biz/*
@@ -70,7 +70,6 @@ function loadPage(){
         const parseHTML = html => new DOMParser().parseFromString(html, 'text/html');
 
         const url = 'http://buy.livedoor.biz/?p=' + $pageNumber;
-        console.log('request=>' + url);
         const response = await fetch(url);
         const arrayBuffer = await response.arrayBuffer();
         const html = decodeAsText(arrayBuffer, 'euc-jp');
