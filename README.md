@@ -4,6 +4,12 @@
 
 ## 一覧
 
+### [価格.com](https://kakaku.com/)
+
+* 製品比較ページ（kakaku.com/*/*/itemlist.aspx）で製品リンクをクリックしたら新規タブで開く
+
+https://github.com/PRiMENON/userscript/raw/main/src/kakaku.user.js
+
 ### [ゲッキーのお買い得商店街](http://buy.livedoor.biz/)
 
 https://github.com/PRiMENON/userscript/raw/main/src/gekiyasu.user.js
